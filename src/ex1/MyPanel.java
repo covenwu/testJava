@@ -20,29 +20,7 @@ public class MyPanel extends JPanel{
     public int move;
     MyPanel(){
         move=10;
-        this.addKeyListener(new KeyListener(){
 
-            @Override
-            public void keyTyped(KeyEvent ke) {
-                //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-            }
-
-            @Override
-            public void keyPressed(KeyEvent ke) {
-                if(ke.getKeyCode()==KeyEvent.VK_UP)
-                {
-                    move+=10;
-                }
-                repaint();
-                //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-            }
-
-            @Override
-            public void keyReleased(KeyEvent ke) {
-                //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-            }
-        
-        });
 
     }
     
